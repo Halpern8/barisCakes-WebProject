@@ -1,0 +1,253 @@
+﻿/* index page */
+
+#content {
+    padding:0px; 
+    min-height:75vh;;
+}
+
+.navbar {
+    margin-bottom:0px; 
+    background:rgb(252,252,244) !important; 
+    border-bottom: 3px solid black !important; 
+    border-right: 2px solid black !important; 
+    border-left: 2px solid black !important; 
+}
+
+#navbarContainer {
+    border: 0px solid transparent; 
+    height:auto; padding:0px;
+}
+
+#background-big-pic {
+    height: 200px;
+    background-image: url(Baris-Big.jpg);
+    background-size: cover;
+}
+
+#background-medium-pic {
+    height: 150px;
+    background-image: url(Baris-Medium.jpg);
+    background-size: cover;
+}
+
+#background-xsmall-pic {
+    height: 100px;
+    background-image: url(Baris-XSmall.jpg);
+    background-size: cover;
+}
+
+#background-small-pic {
+    height: 100px;
+    background-image: url(Baris-Small.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-image: url(cropped.jpg);
+}
+
+a {
+    color: rgb(110,65,54) !important;
+}
+
+.active a {
+    background-color: rgb(252,252,244) !important;
+}
+
+#footerUl li {
+    width: 80px;
+    margin: 10px 0px;
+    float: left;
+}
+
+#footer {
+    border-top: 2px solid black; 
+    min-height: 90px;
+}
+
+#footer h3 {
+    float:left; 
+    margin-left: 8px;
+}
+
+/* Home Page */
+
+.carousel-inner {
+    max-width:75%; 
+    margin: 50px auto;
+}
+
+#littleBanners {
+    width:100%; 
+    text-align:center;
+}
+
+#littleBanners div {
+    display:inline-block;
+}
+
+/* register page */
+
+#registerId {
+    margin-bottom: 30px;
+}
+
+/* cookies page */
+
+#cookiesId {
+    text-align: center; 
+    margin-top:15px;
+}
+
+#cookiesCol {
+    margin-bottom:15px;
+}
+
+#cookiesCol img {
+    max-width:180px; 
+    height:auto;
+}
+
+#cookiesCol div {
+    color:rgb(110,65,54); 
+    font-weight: bolder; 
+    font-size: large; 
+    margin:5px;
+}
+
+#cookiesCol button {
+    background-color:rgb(110,65,54); 
+    color:white;
+}
+
+/* contact us page */
+
+#contactusId {
+    margin-bottom: 30px;
+}
+
+#contactusId #submitBtn {
+    background-color: rgb(110,65,54);
+    color: white;
+}
+
+/* cart page */
+
+#cartId {
+    text-align:center; 
+    margin-top: 30px;
+}
+
+#cartCol {
+    text-align: center; 
+    margin-top:15px;
+}
+
+#cartItems {
+    margin-bottom:15px;
+}
+
+#cartItems img {
+    max-width:180px; 
+    height:auto;
+}
+
+#cartItems div {
+    color:rgb(110,65,54); 
+    font-weight: bolder; 
+    font-size: large; 
+    margin:5px;
+}
+
+#cartItems button {
+    background-color:rgb(110,65,54); 
+    color:white;
+}
+
+#cartFooter {
+    width:100%; 
+    text-align:center; 
+    margin:17px 0px;
+}
+
+#cartFooter label {
+    font-weight:800; 
+    font-size: 19px; 
+    margin-right:17px; 
+    color: darkred;
+}
+
+/* cakes */
+
+#cakesId {
+    text-align: center; 
+    margin-top:15px;
+}
+
+#cakesCol {
+    margin-bottom:15px;
+}
+
+#cakesCol img {
+    max-width:180px; 
+    height:auto;
+}
+
+#cakesCol div {
+    color:rgb(110,65,54); 
+    font-weight: bolder; 
+    font-size: large; 
+    margin:5px;
+}
+
+#cakesCol button {
+    background-color: rgb(110,65,54);
+    color: white;
+}
+
+/* general */
+body {
+    font-family: Arial,Verdana,Tahoma;
+}
+
+.frame {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid silver;
+    padding: 20px;
+}
+
+.myTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.myTable td {
+    border: 1px solid silver;
+    padding: 4px;
+    width: 33%;
+}
+
+a:link, a:visited {
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.centered-form {
+    margin-top: 60px;
+}
+
+.centered-form .panel {
+    background: transparent !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px 20px;
+}
+
+.panel-heading {
+    background:rgb(252,252,244) !important;
+}

@@ -1,0 +1,15 @@
+﻿<div class="row">
+    <div id="cookiesId" ng-repeat="cookie in cookies">
+        <div ng-if="$index % 4 == 0">
+
+        </div>
+        <div id="cookiesCol" class="col-md-3 col-xs-6">
+            <img class="img-thumbnail img-circle"  src="{{cookie.img}}" />
+            <div>
+                <span>{{cookie.name}}</span>
+                <span>{{cookie.price}}₪</span>
+            </div>
+            <button class="btn btn-default" ng-click="addToCart(cookie.name,cookie.price,cookie.img)">Add to cart!</button>
+        </div>
+    </div>
+</div>

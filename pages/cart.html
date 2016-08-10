@@ -1,0 +1,18 @@
+﻿<div id="cartId"><img ng-show="counter ? false : true" src="img/esc.png" /></div>
+<div class="row">
+    <div id="cartCol" ng-repeat="item in cartItems">
+        <div ng-if="$index % 4 == 0">
+
+        </div>
+        <div id="cartItems" class="col-md-3 col-xs-6">
+            <img class="img-thumbnail img-circle" src="{{item.img}}" />
+            <div>
+                <span>{{item.name}}</span>
+                <span>{{item.price}}₪</span>
+            </div>
+            <button class="btn btn-default" ng-click="removeFromCart(item.name)">remove!</button>
+        </div>
+    </div>
+</div>
+
+<div id="cartFooter"><label ng-show="counter ? true : false">Total price: {{totalCost}}₪</label><button id="buyBtn" class="btn btn-success btn-lg" ng-show="{{counter}} ? true : false"  ng-click="setRoute('register')">Buy Now!</button></div>
